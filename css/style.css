@@ -1,9 +1,27 @@
-html {
-    background-color: mediumpurple;
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #DEC9E9;
+    font-size: small;
+}
+
+body {
+    background-color: #7251B5;
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #fff;
+    line-height: 1.5;
 }
 
 .head {
     font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.wrapper {
+    background-color: #000;
+    color: #DEC9E9;
+    max-width: 1200px;
 }
