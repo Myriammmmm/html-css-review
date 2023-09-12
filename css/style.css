@@ -6,6 +6,7 @@ body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: #fff;
     line-height: 1.5;
+    margin: 0;
 }
 
 .wrapper {
@@ -14,12 +15,24 @@ body {
     padding: 0 2em;
 }
 
-header {
+#company-name {
+    color: #DEC9E9;
+    font-size: 1.5rem;
+}
+
+#welcome,
+#fan-fav,
+#team {
+    padding: 4em 0;
+}
+
+#banner {
     background-color: black;
     font-family: 'Wix Madefor Display', sans-serif;
     color: #DEC9E9;
     font-size: small;
 }
+
 .head {
     font-family: 'Wix Madefor Display', sans-serif;
 }
