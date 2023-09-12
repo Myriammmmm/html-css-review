@@ -2,20 +2,24 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
 header {
     background-color: black;
     font-family: 'Wix Madefor Display', sans-serif;
     color: #DEC9E9;
     font-size: small;
 }
-
-body {
-    background-color: #7251B5;
-    font-family: 'Nunito', sans-serif;
-    color: #fff;
-    line-height: 1.5;
-}
-
 .head {
     font-family: 'Wix Madefor Display', sans-serif;
 }
