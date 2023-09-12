@@ -59,4 +59,7 @@ nav ul li a:focus {
     height: 60vh;
     background-color: #7251b5;
     background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
