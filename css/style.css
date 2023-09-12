@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: #fff;
@@ -9,16 +10,19 @@ body {
     margin: 0;
 }
 
+
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2em;
 }
 
+
 #company-name {
     color: #DEC9E9;
     font-size: 1.5rem;
 }
+
 
 #welcome,
 #fan-fav,
@@ -26,72 +30,33 @@ body {
     padding: 4em 0;
 }
 
+
 #banner {
     background-color: black;
-    font-family: 'Wix Madefor Display', sans-serif;
-    color: #DEC9E9;
-    font-size: small;
 }
 
-.head {
-    font-family: 'Wix Madefor Display', sans-serif;
-}
 
-.wrapper {
-    background-color: #000;
-    color: #DEC9E9;
-    max-width: 1200px;
-}
-
-h1 {
-    font-size: 1rem;
-}
-
-h2 {
-    text-transform: uppercase;
-    font-size: 5rem;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25) ;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-h4 {
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
-.hero-image {
-    background-image: url("../images/ice-cream-cones.jpg");
-    background-color: #7251B5;
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-ul {
+nav ul {
     list-style: none;
+    padding-left: 0;
 }
 
-dl {
-    columns: 2;
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    color: #DEC9E9;
 }
 
-dl > dt {
-    font-size: 1.5rem;
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #fff;
 }
 
-dl > dd {
-    font-size: 1rem;
-}
 
-.team {
-    columns: 2;
+#hero-banner {
+    height: 60vh;
+    background-color: #7251b5;
+    background-image: url(../images/ice-cream-cones.jpg);
 }
