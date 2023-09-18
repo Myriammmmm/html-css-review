@@ -63,3 +63,20 @@ nav ul li a:focus {
     background-size: cover;
     background-position: center center;
 }
+
+
+#banner > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > ul {
+    display: flex;
+}
+
+
+nav ul li {
+    padding-left: 1.125em;
+}
