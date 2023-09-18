@@ -55,16 +55,6 @@ nav ul li a:focus {
 }
 
 
-#hero-banner {
-    height: 60vh;
-    background-color: #7251b5;
-    background-image: url(../images/ice-cream-cones.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-
 #banner > div {
     display: flex;
     justify-content: space-between;
@@ -79,4 +69,33 @@ nav > ul {
 
 nav ul li {
     padding-left: 1.125em;
+}
+
+
+#hero-banner {
+    height: 60vh;
+    background-color: #7251b5;
+
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+}
+
+
+#intro {
+    background-color: #7251b5;
+}
+
+
+#intro p {
+    max-width: 50%;
+}
+
+
+#fan-fav {
+    background-color: #000;
 }
